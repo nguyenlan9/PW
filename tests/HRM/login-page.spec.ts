@@ -11,8 +11,6 @@ await page.goto(LOGIN_URL);
         await page.locator("//button[@type='submit']").click()
         await expect(page).toHaveURL(/.*\/erp\/desk.*/);
 
-
-
 });
 test ('TC_LOGIN_02-Đăng nhập thành công(enter)', async({page})=>{
 await page.goto(LOGIN_URL);
@@ -108,3 +106,4 @@ test ('TC_LOGIN_12_Phân biệt Hoa/Thường', async({page})=>{
     await page.locator("//div//button[@type='submit']").click()
 })
 });
+// tégoaga
